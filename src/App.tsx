@@ -50,7 +50,7 @@ const App = () => {
           <div className="w-full cursor-pointer">
             <div className="bg-[#1f1f1f] text-center py-2 rounded-xl">
               <p className="text-lg">
-                Join squad{" "}
+                Jamoga qo'shilish{" "}
                 <Arrow size={18} className="ml-0 mb-1 inline-block" />
               </p>
             </div>
@@ -62,7 +62,7 @@ const App = () => {
           <div className="text-base mt-2 flex items-center">
             <img src={trophy} width={24} height={24} />
             <span className="ml-1">
-              Gold <Arrow size={18} className="ml-0 mb-1 inline-block" />
+              Oltin <Arrow size={18} className="ml-0 mb-1 inline-block" />
             </span>
           </div>
         </div>
@@ -91,17 +91,17 @@ const App = () => {
               <div className="w-full bg-[#fad258] py-4 rounded-2xl flex justify-around">
                 <button className="flex flex-col items-center gap-1">
                   <img src={bear} width={24} height={24} alt="High Voltage" />
-                  <span>Frens</span>
+                  <span>Do'st</span>
                 </button>
                 <div className="h-[48px] w-[2px] bg-[#fddb6d]"></div>
                 <button className="flex flex-col items-center gap-1">
                   <img src={coin} width={24} height={24} alt="High Voltage" />
-                  <span>Earn</span>
+                  <span>Qazish</span>
                 </button>
                 <div className="h-[48px] w-[2px] bg-[#fddb6d]"></div>
                 <button className="flex flex-col items-center gap-1">
                   <img src={rocket} width={24} height={24} alt="High Voltage" />
-                  <span>Boosts</span>
+                  <span>Qobiliyat</span>
                 </button>
               </div>
             </div>
